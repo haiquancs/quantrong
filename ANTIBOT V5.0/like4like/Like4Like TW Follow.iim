@@ -1,0 +1,75 @@
+﻿'Script was created by Ninosla from http://digesale.com/user-profile/ninosla'
+'Visit the link above for more info, for more scripts and if you want to contact the creator'
+SET !ERRORIGNORE YES
+SET !TIMEOUT_PAGE 8
+SET !VAR1 EVAL("var min = 2; var max = 3; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+SET !VAR2 EVAL("var min = 3; var max = 5; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+SET !VAR3 EVAL("var min = 4; var max = 6; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+SET !VAR4 EVAL("var min = 5; var max = 7; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+SET !VAR5 EVAL("var min = 8; var max = 10; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+WAIT SECONDS={{!VAR5}}
+URL GOTO=http://www.like4like.org/twitter/twitter-followers.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=A ATTR=CLASS:cursor<SP>earn_pages_button<SP>profile_view_img_*
+TAB T=2
+ FRAME F=0
+TAG POS=1 TYPE=BUTTON ATTR=TXT:Follow<SP>Following<SP>Unfollow<SP>Blocked<SP>Unblock<SP>Pen*
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR3}}
+TAG POS=1 TYPE=A ATTR=CLASS:cursor<SP>earn_pages_button<SP>profile_view_img_*
+TAB T=2
+ FRAME F=0
+TAG POS=1 TYPE=BUTTON ATTR=TXT:Follow<SP>Following<SP>Unfollow<SP>Blocked<SP>Unblock<SP>Pen*
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR4}}
+TAG POS=1 TYPE=A ATTR=CLASS:cursor<SP>earn_pages_button<SP>profile_view_img_*
+TAB T=2
+ FRAME F=0
+TAG POS=1 TYPE=BUTTON ATTR=TXT:Follow<SP>Following<SP>Unfollow<SP>Blocked<SP>Unblock<SP>Pen*
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=A ATTR=CLASS:cursor<SP>earn_pages_button<SP>profile_view_img_*
+TAB T=2
+ FRAME F=0
+TAG POS=1 TYPE=BUTTON ATTR=TXT:Follow<SP>Following<SP>Unfollow<SP>Blocked<SP>Unblock<SP>Pen*
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR4}}
+TAG POS=1 TYPE=A ATTR=CLASS:cursor<SP>earn_pages_button<SP>profile_view_img_*
+TAB T=2
+ FRAME F=0
+TAG POS=1 TYPE=BUTTON ATTR=TXT:Follow<SP>Following<SP>Unfollow<SP>Blocked<SP>Unblock<SP>Pen*
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR3}}
+TAG POS=1 TYPE=A ATTR=CLASS:cursor<SP>earn_pages_button<SP>profile_view_img_*
+TAB T=2
+ FRAME F=0
+TAG POS=1 TYPE=BUTTON ATTR=TXT:Follow<SP>Following<SP>Unfollow<SP>Blocked<SP>Unblock<SP>Pen*
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR3}}
+TAG POS=1 TYPE=A ATTR=CLASS:cursor<SP>earn_pages_button<SP>profile_view_img_*
+TAB T=2
+ FRAME F=0
+TAG POS=1 TYPE=BUTTON ATTR=TXT:Follow<SP>Following<SP>Unfollow<SP>Blocked<SP>Unblock<SP>Pen*
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR2}}

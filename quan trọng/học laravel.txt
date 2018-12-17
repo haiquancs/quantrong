@@ -1,0 +1,2 @@
+﻿mail job : https://itsolutionstuff.com/post/how-to-create-queue-with-mail-in-laravel-5-example.html
+Lệnh Laravel : https://learninglaravel.net/cheatsheet/#str

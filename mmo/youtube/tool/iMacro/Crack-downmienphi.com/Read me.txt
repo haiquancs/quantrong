@@ -1,0 +1,15 @@
+- Install.
+
+- If you're installing 64-bit setup:
+
+Copy and replace iMacros.WinUI.Common.dll in the following path:
+
+C:\Program Files\Ipswitch\iMacros
+
+- Copy and replace iMacros.WinUI.Common.dll in x86 folder in the following path:
+
+C:\Program Files (x86)\Ipswitch\iMacros
+
+- If you're on 32-bit, just copy the one from x86 folder.
+
+- That's all.

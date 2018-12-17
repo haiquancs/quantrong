@@ -1,0 +1,8 @@
+
+127.0.0.1 kienthuctieuduongtest.vn
+
+<VirtualHost *:80>
+    ##ServerAdmin webmaster@kienthuctieuduongtest.vn
+    DocumentRoot "D:\xampp\htdocs\source\main"
+    ServerName kienthuctieuduongtest.vn
+</VirtualHost>

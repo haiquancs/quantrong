@@ -1,0 +1,6 @@
+javascript:var inputs = document.getElementsByClassName('FriendRequestAdd:eq(0)');
+alert(inputs.html());
+inputs.click();
+        for (var i = 0; i < inputs.length; i++) {
+            inputs[i].click();
+        }

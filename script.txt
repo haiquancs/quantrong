@@ -1,0 +1,28 @@
+<script>
+    $(document).ready(function(){
+        $(".selectit").click(function(){
+            var parent =  $(this).parents('.popular-category');
+            if($(this).find("input").attr('checked')=='checked'){
+                parent.each(function () {
+                    $(this).find("input").first().prop('checked', true);
+                });
+            }else{
+                parent.each(function () {
+                    $(this).find("input").prop('checked', false);
+                });
+            }
+        });
+        $(".selectit").click(function(){
+            var parent =  $(this).parents('#category-35');
+            if($(this).find("input").attr('checked')=='checked'){
+                parent.each(function () {
+                    $(this).find("input").first().prop('checked', true);
+                });
+            }else{
+                parent.each(function () {
+                    $(this).find("input").prop('checked', false);
+                });
+            }
+        });
+    });
+</script>

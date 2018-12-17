@@ -1,0 +1,25 @@
+﻿- Công cụ cần có: xampp, git, composer, sublime text 3 hoặc php stome,...
+- Framework : Laravel 5.4
+Hướng dẫn cài đặt:
+- xampp : https://www.apachefriends.org/download.html
+- git : https://git-scm.com/downloads
+- composer : https://www.youtube.com/watch?v=xobz4ELUHKA
+Sau khi cài đặt xong:
+- Mở đường dẫn sau: xampp\htdocs\
+- Chuột phải chọn Git Bash Here
+- gõ : git clone https://github.com/haiquancs/alumni-management-System.git
+- gõ : composer install
+- gõ : composer update
+- Mở sublime text lên, chọn File-Open folder...-chọn đến thư mục "alumni-management-System"-select folder
+- Mở .env.example, copy toàn bộ nội dung, ctrl-n, paste toàn bộ, ctrl-s, lưu tên file ".env"
+- Mở xampp, start apache và mysql, mở trình duyệt vào http://localhost/phpmyadmin/, new(mới), tên database : alumni, mã utf8_unicode_ci
+- Bấm vào alumni, chọn nhập(import), choose file, chọn file alumni.sql, thực hiện
+- Mở trình duyệt vào http://localhost/alumni-management-System/public/create, như vậy đã có tài khoản admin. Đăng nhập tk admin 1,123456.
+- Mở trình duyệt vào http://localhost/alumni-management-System/public/users/create, như vậy đã có 20 tk cho sinh viên từ 14020000-14020020. Đăng nhập tk sinh viên dưới dạng mssv,mssv
+
+
+Sửa lại 
+- Mở xampp, start apache và mysql, mở trình duyệt vào http://localhost/phpmyadmin/
+- Bấm vào alumni, thao tác(operations),drop bỏ alumni
+- Tạo lại alumni, mã utf8_unicode_ci
+- Bấm vào alumni, chọn nhập(import), choose file, chọn file alumni.sql, thực hiện
