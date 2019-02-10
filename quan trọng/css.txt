@@ -1,0 +1,9 @@
+﻿Chuyển "..." khi quá dòng:
+	word-wrap: break-word;
+    	line-height: 1.125rem;
+   	height: 2.25rem;
+   	overflow: hidden;
+    	display: -webkit-box;
+    	text-overflow: ellipsis;
+    	-webkit-box-orient: vertical;
+    	-webkit-line-clamp: 2;
