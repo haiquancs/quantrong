@@ -1,0 +1,4 @@
+﻿- kinh nghiệm 1:
++ Hot nhiều người tìm nhưng nhiều người bán, thì sp bán được lại không nhiều
++ Không hot nhưng ít người bán, thì sản phẩm bán ít nhưng cuối cùng lại nhiều hơn sp hot
+=> KL: xem số lượng sản phẩm sẽ bán được để chọn 1 trong 2
