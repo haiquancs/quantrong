@@ -1,3 +1,16 @@
+﻿- https://amzscout.net/app/#/database
+=> Tìm kiếm sản phẩm theo filter: Danh mục, mức độ doanh thu (>= $4000), 
+mức độ review (>= 4 sao), Product tier (standard), Seller type (Amazone, FBA)
+
+- https://yaballe.com/#/autolister
+=> Auto list sản phẩm
+
+- http://www.newlifeauctions.com/calc.html
+=> Tool tính toán lợi nhuận
+
+- https://www.vipon.com/main/index?ref=menu_logo
+=> Lấy mã coupon
+
 www.keywordtooldominator.com
 www.merchantwords.com
 www.terapeak.com
