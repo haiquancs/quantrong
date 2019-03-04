@@ -1,17 +1,25 @@
-﻿- https://amzscout.net/app/#/database
-=> Tìm kiếm sản phẩm theo filter: Danh mục, mức độ doanh thu (>= $4000), 
-mức độ review (>= 4 sao), Product tier (standard), Seller type (Amazone, FBA)
+﻿- Tìm kiếm sản phẩm theo filter: Danh mục, mức độ doanh thu (>= $4000), 
+mức độ review (>= 4 sao), Product tier (standard), Seller type (Amazone, FBA):
++ https://amzscout.net/app/#/database
 
-- https://yaballe.com/#/autolister
-=> Auto list sản phẩm
 
-- http://www.newlifeauctions.com/calc.html
-=> Tool tính toán lợi nhuận
+- Auto list sản phẩm:
++ https://yaballe.com/#/autolister
 
-- https://www.vipon.com/main/index?ref=menu_logo
-=> Lấy mã coupon
+- Tool tính toán lợi nhuận;
++ http://www.newlifeauctions.com/calc.html
+
+- Lấy mã coupon:
++ https://www.vipon.com/main/index?ref=menu_logo
+
+
+
+- Kiểm tra dính thương hiệu:
++ http://tmsearch.uspto.gov/bin/gate.exe?f=searchss&state=4802:o5piom.1.1
+
 
 www.keywordtooldominator.com
 www.merchantwords.com
 www.terapeak.com
 struggleville.net/ebay-search-rank
+https://zikanalytics.com
